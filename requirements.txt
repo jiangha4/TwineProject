@@ -1,4 +1,3 @@
 requests
-uwsgi
 flask
 flask_restplus

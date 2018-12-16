@@ -1,15 +1,18 @@
 # TwineProject
 
-This project is a simple Flask application with a RESTful API built by Flask RESTplus
+This project is a simple python3 Flask application with a RESTful API built by Flask RESTplus
 and Swagger UI.
+
+Note: Please use python3 to run and install. This app uses the math library functions that
+are present in python3 but not python2.
 
 ### Install requirements with:
 ```
-sudo pip install -r requirements.txt
+sudo pip3 install -r requirements.txt
 ```
 ### To run:
 ```
-python app.py
+python3 app.py
 ```
 ### To navigate to the front end:
 ```
