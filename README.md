@@ -11,6 +11,8 @@ are present in python3 but not python2.
 sudo pip3 install -r requirements.txt
 ```
 ### To run:
+Make sure you're in the root directory for the project which contains the app.py file.
+
 ```
 python3 app.py
 ```
