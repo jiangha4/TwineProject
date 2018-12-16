@@ -15,7 +15,7 @@ python app.py
 ```
 localhost:8000/
 ```
-You can also use the command to send a get request for data.
+You can also use the command line to send a get request for data.
 
 For example, to get the compensation base for Equinetworks:
 ```
