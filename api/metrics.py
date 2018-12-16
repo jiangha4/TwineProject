@@ -18,7 +18,12 @@ def get_metric_value(company, metric):
     for row in csv_file.reader:
         if company in row:
                 if row[index] != '':
-                    buf.append(float(row[index]))
+                    try:
+                        val = float(row[index])
+                        buf.append(val)
+                    except Exception as e:
+                        print("Error with data field")
+                        print("...Skipping")
     value = float(sum(buf))/float(len(buf))
     return "{0:.5f}".format(value)
 
