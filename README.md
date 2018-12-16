@@ -6,15 +6,19 @@ and Swagger UI.
 To run:
 
 Install requirements with:
-  sudo pip install -r requirements.txt
+
+sudo pip install -r requirements.txt
 
 To run:
-  python app.py
+
+python app.py
 
 To navigate to the front end by:
-  localhost:8000/
+
+localhost:8000/
 
 You can also use the command to send a get request for data.
 
 For example, to get the compensation base for Equinetworks:
-  requests.get('http://localhost:8000/benchmarks/?company=Equinetworks&metric=compensation_base')
+
+requests.get('http://localhost:8000/benchmarks/?company=Equinetworks&metric=compensation_base')
